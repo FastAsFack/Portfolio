@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #0c341a;
+	color: white;
+	font-family: "Jura", sans-serif;
+}
+
+.main {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.head {
+	font-size: 6vw; /* Using relative unit vw for responsiveness */
+}
+
+.name {
+	font-size: 4vw; /* Using relative unit vw for responsiveness */
+	margin-top: 20px;
+}
+
+.rectangle {
+	width: 700px;
+	height: 10px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 50px auto;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+	.head {
+		font-size: 10vw; /* Adjust font size for smaller screens */
+	}
+
+	.name {
+		font-size: 6vw; /* Adjust font size for smaller screens */
+	}
+}
+
+.discord {
+	width: 70px;
+	position: absolute;
+	left: 400px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.github {
+	width: 70px;
+	position: absolute;
+	left: 650px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.email {
+	width: 70px;
+	position: absolute;
+	left: 700px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.linkedin {
+	width: 70px;
+	position: absolute;
+	left: 1100px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
